@@ -43,4 +43,17 @@ public class AppTest
         // Assert
         assertEquals( expectedResponse, actualResponse);
     }
+
+    @Test
+    public void test_sayMorning_should_return_Morning()
+    {
+        // Arrange
+        String actualResponse = "";
+        String expectedResponse = "Morning!";
+
+        // Act
+        actualResponse = sayMorning();
+        // Assert
+        assertEquals( expectedResponse, actualResponse);
+    }
 }
