@@ -25,6 +25,10 @@ public class App
         return "Goodbye World!";
     }
 
+    public static String sayMorning(){
+        return "Morning!";
+    }
+
     public static String sayHelloToSomeone(String name){
         return "Hello " + name ;
     }
